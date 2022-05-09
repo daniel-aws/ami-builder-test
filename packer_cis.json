@@ -65,7 +65,7 @@
     },
     {
       "type": "file",
-      "source": "DLC-Microservice-Files",
+      "source": "DLC-Microservice-Files/",
       "destination": "/tmp/"
     },
     {
