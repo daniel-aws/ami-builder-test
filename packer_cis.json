@@ -66,13 +66,7 @@
     {
       "type": "file",
       "source": "DLC-Microservice-Files/",
-      "destination": "/tmp/DLC-Microservice-Files/"
-    },
-    {
-      "type": "shell",
-      "inline": [
-        "sudo mv /tmp/DLC-Microservice-Files/* {{ user `home` }}"
-      ]
+      "destination": "/home/ec2-user/"
     }
   ]
 }
