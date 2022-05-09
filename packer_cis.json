@@ -64,9 +64,15 @@
       ]
     },
     {
+      "type": "shell",
+      "inline": [
+        "mkdir /home/ec2-user/DLC-Microservice-Files"
+      ]
+    },
+    {
       "type": "file",
       "source": "DLC-Microservice-Files/",
-      "destination": "/home/ec2-user/"
+      "destination": "/home/ec2-user/DLC-Microservice-Files/"
     }
   ]
 }
